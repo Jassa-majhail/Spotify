@@ -9,7 +9,6 @@ body{
 @font-face {
     font-family: Ubuntu-Regular;
     src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
-    
 }
 
 nav{
@@ -39,4 +38,30 @@ nav ul li{
 .brand img{
     width: 44px;
     padding: 0 8px;
+}
+.container{
+    min-height: 75vh;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
 }
